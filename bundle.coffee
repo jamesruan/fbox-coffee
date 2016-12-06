@@ -1,3 +1,2 @@
-Assert = require('./Assert.coffee')
-module.exports =
-	Assert: Assert
+logger = require('./Logger.coffee')
+module.exports = logger
